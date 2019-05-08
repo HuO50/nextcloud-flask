@@ -1,0 +1,170 @@
+l]0;root@VM_0_12_centos:/data/nextcloud[root@VM_0_12_centos nextcloud]# lear
+bash: lear: command not found
+]0;root@VM_0_12_centos:/data/nextcloud[root@VM_0_12_centos nextcloud]# scren[Ken -r 17123
+There is a screen on:
+	17123.pts-1.VM_0_12_centos	(Attached)
+There is no screen to be resumed matching 17123.
+]0;root@VM_0_12_centos:/data/nextcloud[root@VM_0_12_centos nextcloud]# screen -r[K[K[K[K[K[K[K[K[Kscreen -r 17123lear[Kpython[2Plearscreen -r 17123[Kscreen -r 17123lear[Kpython[2Plearscreen -r 17123[Ky[Kls
+[0m[01;34mconfig[0m                   [01;34mNode[0m         test.py
+[01;34mfiles[0m                    ostest.py    [01;32mtest.sh[0m
+model.py                 [01;34mPython[0m       webdav.py
+Nextcloud%20Manual.pdf   screenlog.0  webdav.pyc
+nextcloud_server.py      screenlog.1  xml.py
+nextcloud_server.py.bak  session_key  xml.pyc
+nextcloud_server.py.new  [01;34mtemplates[0m
+]0;root@VM_0_12_centos:/data/nextcloud[root@VM_0_12_centos nextcloud]# python nextcloud_server.py
+/usr/lib64/python2.7/site-packages/flask_sqlalchemy/__init__.py:794: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
+ * Serving Flask app "nextcloud_server" (lazy loading)
+ * Environment: production
+[31m   WARNING: Do not use the development server in a production environment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: on
+Traceback (most recent call last):
+  File "nextcloud_server.py", line 211, in <module>
+    port=30000
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 943, in run
+    run_simple(host, port, self, **options)
+  File "/usr/lib/python2.7/site-packages/werkzeug/serving.py", line 795, in run_simple
+    s.bind(get_sockaddr(hostname, port, address_family))
+  File "/usr/lib64/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+]0;root@VM_0_12_centos:/data/nextcloud[root@VM_0_12_centos nextcloud]# clear
+[H[J]0;root@VM_0_12_centos:/data/nextcloud[root@VM_0_12_centos nextcloud]# clearpython nextcloud_server.py
+/usr/lib64/python2.7/site-packages/flask_sqlalchemy/__init__.py:794: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
+ * Serving Flask app "nextcloud_server" (lazy loading)
+ * Environment: production
+[31m   WARNING: Do not use the development server in a production environment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: on
+Traceback (most recent call last):
+  File "nextcloud_server.py", line 211, in <module>
+    port=30000
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 943, in run
+    run_simple(host, port, self, **options)
+  File "/usr/lib/python2.7/site-packages/werkzeug/serving.py", line 795, in run_simple
+    s.bind(get_sockaddr(hostname, port, address_family))
+  File "/usr/lib64/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+socket.error: [Errno 98] Address already in use
+]0;root@VM_0_12_centos:/data/nextcloud[root@VM_0_12_centos nextcloud]# clrea[K[K[Kear
+[H[J]0;root@VM_0_12_centos:/data/nextcloud[root@VM_0_12_centos nextcloud]# ls
+[0m[01;34mconfig[0m                   [01;34mNode[0m         test.py
+[01;34mfiles[0m                    ostest.py    [01;32mtest.sh[0m
+model.py                 [01;34mPython[0m       webdav.py
+Nextcloud%20Manual.pdf   screenlog.0  webdav.pyc
+nextcloud_server.py      screenlog.1  xml.py
+nextcloud_server.py.bak  session_key  xml.pyc
+nextcloud_server.py.new  [01;34mtemplates[0m
+]0;root@VM_0_12_centos:/data/nextcloud[root@VM_0_12_centos nextcloud]# cd ..
+]0;root@VM_0_12_centos:/data[root@VM_0_12_centos data]# ls
+[0m[01;34mcertbot[0m      [01;34miot[0m                              [01;34mpostdir[0m  [01;34mthread[0m
+[01;34mgit[0m          [01;34mnextcloud[0m                        [01;34mtest[0m     [01;34mwebsocket[0m
+history.log  [01;31mopenssh-5.8p2-16.fc16.1.src.rpm[0m  test.py
+]0;root@VM_0_12_centos:/data[root@VM_0_12_centos data]# cd [K[K[Kscreen -x[K[K[K[K[K[K[K[K[Khistory | grep screen
+   48  2018-12-06 10:34:46 [01;31m[Kscreen[m[K -r 17265
+   51  2018-12-08 21:59:41 [01;31m[Kscreen[m[K -list
+   57  2018-12-08 21:59:53 [01;31m[Kscreen[m[K -r 17265
+   58  2018-12-08 22:33:16 [01;31m[Kscreen[m[K -r 17265
+   69  2018-12-09 22:36:05 [01;31m[Kscreen[m[K -r list
+   70  2018-12-09 22:36:22 [01;31m[Kscreen[m[K -list
+   71  2018-12-09 22:36:27 [01;31m[Kscreen[m[K -r 17265
+   72  2018-12-10 16:12:38 [01;31m[Kscreen[m[K -list
+  125  2018-12-10 16:12:51 [01;31m[Kscreen[m[K -r 17265
+  140  2018-12-10 17:42:36 [01;31m[Kscreen[m[K -r 17265
+  230  2018-12-10 19:52:30 [01;31m[Kscreen[m[K -r 17265
+  248  2018-12-11 09:36:29 [01;31m[Kscreen[m[K -r 17265
+  265  2018-12-11 10:03:30 [01;31m[Kscreen[m[K -r 17265
+  279  2018-12-11 16:16:33 [01;31m[Kscreen[m[K -r 17265
+  311  2018-12-11 23:34:24 [01;31m[Kscreen[m[K -r 17265
+  312  2018-12-11 23:34:37 [01;31m[Kscreen[m[K -list
+  313  2018-12-11 23:34:45 [01;31m[Kscreen[m[K -r 17265
+  315  2018-12-11 16:49:27 [01;31m[Kscreen[m[K -r 17265
+  353  2018-12-11 23:36:43 [01;31m[Kscreen[m[K -r 17265
+  366  2018-12-12 10:24:35 [01;31m[Kscreen[m[K -r 17265
+  373  2018-12-13 11:33:38 [01;31m[Kscreen[m[K -r 17265
+  845  2018-12-13 17:37:47 [01;31m[Kscreen[m[K 
+  847  2018-12-13 17:38:44 [01;31m[Kscreen[m[K -list
+  880  2018-12-13 17:41:06 [01;31m[Kscreen[m[K -list
+  881  2018-12-13 15:15:02 [01;31m[Kscreen[m[K -r 17265
+  906  2018-12-13 17:41:11 [01;31m[Kscreen[m[K -r 5911
+  929  2018-12-13 17:45:29 [01;31m[Kscreen[m[K -r 5911
+  958  2018-12-13 18:22:28 [01;31m[Kscreen[m[K -list
+  974  2018-12-13 17:42:37 [01;31m[Kscreen[m[K -r 17265
+  975  2018-12-13 18:22:32 [01;31m[Kscreen[m[K -r 5911
+ 1021  2018-12-13 19:01:42 [01;31m[Kscreen[m[K -r 5911
+ 1057  2018-12-13 21:44:16 [01;31m[Kscreen[m[K -list
+ 1061  2018-12-13 21:44:23 [01;31m[Kscreen[m[K -r 14545
+ 1338  2018-12-14 17:36:09 [01;31m[Kscreen[m[K -list
+ 1343  2018-12-14 17:36:15 [01;31m[Kscreen[m[K -r 5911
+ 1369  2018-12-14 17:38:31 [01;31m[Kscreen[m[K -r 5911
+ 1370  2018-12-14 17:37:09 [01;31m[Kscreen[m[K -r 17265
+ 1372  2018-12-14 17:41:12 [01;31m[Kscreen[m[K -r 17265
+ 1373  2018-12-14 17:41:15 [01;31m[Kscreen[m[K -r 5911
+ 1844  2018-12-16 16:07:29 rm [01;31m[Kscreen[m[Klog.0 
+ 1846  2018-12-16 16:07:34 rm [01;31m[Kscreen[m[Klog.0 
+ 1856  2018-12-16 16:08:16 vim [01;31m[Kscreen[m[Klog.0 
+ 1857  2018-12-16 16:08:20 rm [01;31m[Kscreen[m[Klog.0 
+ 2127  2018-12-17 14:19:26 [01;31m[Kscreen[m[K -list
+ 2128  2018-12-17 14:19:34 [01;31m[Kscreen[m[K -r 17265
+ 2131  2018-12-17 14:20:35 [01;31m[Kscreen[m[K -r 17123
+ 2134  2018-12-17 14:20:43 [01;31m[Kscreen[m[K -list
+ 2202  2018-12-17 14:21:09 [01;31m[Kscreen[m[K -r 17265
+ 2204  2018-12-17 14:20:50 [01;31m[Kscreen[m[K -r 5911
+ 2212  2018-12-17 20:17:42 [01;31m[Kscreen[m[K -list
+ 2213  2018-12-17 20:17:48 [01;31m[Kscreen[m[K -r 17265
+ 2388  2018-12-18 15:39:09 [01;31m[Kscreen[m[K -r 17265
+ 2446  2018-12-19 10:51:47 [01;31m[Kscreen[m[K -r 17265
+ 2465  2018-12-20 17:53:37 [01;31m[Kscreen[m[K -list
+ 2471  2018-12-20 17:53:44 [01;31m[Kscreen[m[K -r 17265
+ 2507  2018-12-22 18:16:46 [01;31m[Kscreen[m[K -list
+ 2572  2018-12-22 18:16:53 [01;31m[Kscreen[m[K -r 17123
+ 2573  2018-12-23 00:58:44 [01;31m[Kscreen[m[K -r 17123
+ 2591  2018-12-24 14:19:19 [01;31m[Kscreen[m[K -l
+ 2592  2018-12-24 14:19:32 [01;31m[Kscreen[m[K -list
+ 2598  2018-12-24 14:19:43 [01;31m[Kscreen[m[K -r 17265
+ 2635  2018-12-26 10:29:42 [01;31m[Kscreen[m[K -r 17123
+ 2636  2018-12-26 10:30:55 [01;31m[Kscreen[m[K -list
+ 2637  2018-12-26 10:31:01 [01;31m[Kscreen[m[K -r 17265
+ 2638  2018-12-26 10:31:14 [01;31m[Kscreen[m[K -r 5911
+ 2649  2018-12-26 10:33:40 [01;31m[Kscreen[m[K -r 17265
+ 2653  2018-12-26 12:20:11 [01;31m[Kscreen[m[K -r 17265
+ 2656  2018-12-26 12:20:31 [01;31m[Kscreen[m[K -list
+ 2659  2018-12-26 12:20:35 [01;31m[Kscreen[m[K -r 5911
+ 2682  2018-12-29 16:27:59 [01;31m[Kscreen[m[K -r
+ 2683  2018-12-29 16:28:12 [01;31m[Kscreen[m[K -r 17123
+ 2685  2018-12-29 16:28:34 [01;31m[Kscreen[m[K -r 5911
+ 2686  2018-12-29 16:29:23 [01;31m[Kscreen[m[K -X -S 5911 quit
+ 2687  2018-12-29 16:29:31 [01;31m[Kscreen[m[K -l
+ 2688  2018-12-29 16:29:37 [01;31m[Kscreen[m[K -list
+ 2689  2018-12-29 16:29:50 [01;31m[Kscreen[m[K -X -S 21288 quit
+ 2690  2018-12-29 16:29:58 [01;31m[Kscreen[m[K -X -S 26928 quit
+ 2691  2018-12-29 16:30:06 [01;31m[Kscreen[m[K -r 14545
+ 2692  2018-12-29 16:30:22 [01;31m[Kscreen[m[K -X -S 14545 quit
+ 2693  2018-12-29 16:30:30 [01;31m[Kscreen[m[K -r 17265
+ 2694  2018-12-29 16:30:52 [01;31m[Kscreen[m[K -X -S 17265 quit
+ 2696  2018-12-29 16:30:58 [01;31m[Kscreen[m[K -list
+ 2712  2018-12-30 13:46:52 [01;31m[Kscreen[m[K -list
+ 2713  2018-12-30 13:46:56 [01;31m[Kscreen[m[K -r 17123
+ 2722  2018-12-30 19:48:06 [01;31m[Kscreen[m[K -list
+ 2723  2018-12-30 19:48:10 [01;31m[Kscreen[m[K -r 17123
+ 2727  2018-12-30 19:59:47 [01;31m[Kscreen[m[K -r 17123
+ 2734  2018-12-30 20:05:32 [01;31m[Kscreen[m[K -r 17123
+ 2737  2018-12-30 20:06:10 [01;31m[Kscreen[m[K -r 17123
+ 2738  2018-12-30 21:16:12 [01;31m[Kscreen[m[K -r 17123
+ 2746  2018-12-30 22:38:51 [01;31m[Kscreen[m[K -r 17123
+ 2754  2018-12-30 23:12:30 [01;31m[Kscreen[m[K -r 17123
+ 2755  2018-12-31 08:08:17 [01;31m[Kscreen[m[K -r 17123
+ 2777  2018-12-31 09:26:17 [01;31m[Kscreen[m[K -r 17123
+ 2826  2018-12-31 09:33:13 [01;31m[Kscreen[m[K -r 17123
+ 2832  2018-12-31 18:27:19 [01;31m[Kscreen[m[K -r 17123
+ 2872  2018-12-31 18:39:36 [01;31m[Kscreen[m[K -r 17123
+ 2877  2018-12-31 19:02:36 [01;31m[Kscreen[m[K -r 17123
+ 2963  2019-01-01 16:15:08 [01;31m[Kscreen[m[K -r 17123
+ 2972  2019-01-01 16:27:41 [01;31m[Kscreen[m[K -r 17123
+ 2976  2019-01-01 16:30:53 [01;31m[Kscreen[m[K -r 17123
+ 3002  2019-01-01 16:52:37 [01;31m[Kscreen[m[K -r 17123
+ 3011  2019-01-01 16:55:28 history | grep [01;31m[Kscreen[m[K
+]0;root@VM_0_12_centos:/data[root@VM_0_12_centos data]# screen -X 0[K-S 17123 quir[Kt

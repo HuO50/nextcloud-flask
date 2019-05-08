@@ -1,0 +1,17 @@
+1、第一次登陆注册
+2、之后登陆都使用微信认证登陆，
+3、数据库存储的内容是用户名+用户key
+
+user
+user_id
+user_name
+user_wxid
+user_createdata
+user_appid
+user_sessionkey
+user_openid
+user_passwd
+
+用户登陆状态：
+已登陆
+已登出

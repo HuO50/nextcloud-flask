@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<d:error xmlns:d="DAV:" xmlns:s="http://sabredav.org/ns">
+  <s:exception>Sabre\DAV\Exception\NotFound</s:exception>
+  <s:message>File with name wx0d086fd72142e36a.o6zAJsz_xN3cx4dhK4fUXubJHTxA.PeDSnhxmOWHsa175fcecadc36140f50a6e8e7dacf811.png could not be located</s:message>
+</d:error>
